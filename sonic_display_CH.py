@@ -5,7 +5,7 @@ import RPi_I2C_driver as lcd1602
 from time import sleep
 import asyncio
 
-mylcd = lcd1602.lcd()
+mylcd = lcd1602.lcd()   
 
 if __name__ == '__main__':
     print('啟動程式...')

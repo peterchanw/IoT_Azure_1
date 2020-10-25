@@ -21,7 +21,7 @@ def handle_twin(twin):
             GPIO.output(GPIO_PIN, desired['led'])
 
 async def main():
-    # establish Microsoft Azure connection
+    # 建立Microsoft Azure连接
     conn_str = "HostName=PChanRaspiIoT.azure-devices.net;DeviceId=RaspPiDistance;SharedAccessKey=ZiP67PLKn/hyNpa3TdcM9jGVoYiVIb+Qg27ALKq3eDg="
     device_client = IoTHubDeviceClient.create_from_connection_string(conn_str)
     await device_client.connect()

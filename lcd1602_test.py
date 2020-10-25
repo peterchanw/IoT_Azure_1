@@ -1,3 +1,4 @@
+# import the necessary package
 import RPi_I2C_driver as lcd1602
 from time import *
 

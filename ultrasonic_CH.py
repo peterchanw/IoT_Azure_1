@@ -36,7 +36,7 @@ async def distance():
     return distance
  
 def measure_dist():
-    # 準備「啟動引脚」以40kHz的頻率發射8個週期的超聲脈衝並將其設置為低電平1秒
+    # 準備「啟動引脚」以40kHz的頻率發射8個週期的超聲脈衝並將其設置為低電平1秒   
     GPIO.output(GPIO_TRIGGER, False) 
     time.sleep(1)
     GPIO.output(GPIO_TRIGGER, True)

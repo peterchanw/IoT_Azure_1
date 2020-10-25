@@ -2,4 +2,3 @@ venv
 .vscode
 *.pyc
 *.log
-*.lic

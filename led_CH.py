@@ -2,7 +2,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-# 設置GPIO 17來驅動LED
+# 設置GPIO 17來驅動 LED
 GPIO_PIN=25
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(GPIO_PIN, GPIO.OUT)
